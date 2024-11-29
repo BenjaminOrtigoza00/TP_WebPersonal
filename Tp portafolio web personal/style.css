@@ -1,0 +1,432 @@
+
+
+
+header{
+    
+   margin-left: 150px;
+    margin-right: 143px;
+    
+}
+.hero{
+    
+    position: relative;
+    height: 480px;
+    background-image: url(imagen/manos\ hero.jpg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.heroe{
+    margin-left: 115px;
+    
+    margin-right: 795px;
+    height: 480px;
+    
+   
+  
+}
+
+.heroetitle{
+    margin-top: 85px;
+    font-size: 50px;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+}
+.heroeboton{
+    background-color: black;
+    margin-top: 20px;
+    
+    padding: 10px 22px;
+    color: white;
+    border: none;
+    border-radius: 25px;
+    font-size: 13px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+    
+}
+
+    
+
+
+
+/* NAVBAR*/
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+    height: 110px;
+   
+   
+    
+}
+
+.logoizquierda{
+    display: flex;
+    align-items: center;
+    margin-left: -10px;
+    
+}
+
+
+.menumedio{
+    width: 550px;
+   
+    margin-bottom: 50px;
+}
+
+.listahorizontal{
+    display:flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    
+    
+}
+.listahorizontal li{ 
+    margin-right: 30px;
+    
+}
+
+.sinraya{
+    text-decoration: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 15px;
+    color: black;
+}
+
+
+
+
+    
+
+.imglogo{
+    margin-left:0px;
+    width: 170px;
+    height: 60px;
+    margin-bottom: 40px;
+    
+}
+
+.iconosderecha{
+    
+    margin-bottom: 57px;
+    display: flex;
+    width: 120px;
+    height: 70px;
+    align-items: center;
+   
+}
+ 
+.iconos{
+    margin: 10px;
+   padding: 0;
+}
+
+/*CONTENIDO PRINCIPAL*/
+
+.parrafo{
+    
+    height: 195px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.mitexto{
+    text-align: center;
+    margin-top: 35px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 18px
+}
+
+.contenedorbf{
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+/*NUEVA SECCION*/
+.featuredclases{
+    background-color:white;
+    height: 115px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.featuredhijo{
+    margin-top: 55px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.parrafito{
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+/*CARDS*/
+main{
+    background-color: white;
+    
+    
+    
+
+    
+}
+.padrecontainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+   
+    
+}
+.container{
+    background-color:white;
+    
+    
+    margin-left: 163px ;
+    width: 100%;
+}
+
+.row{
+    justify-content: center;
+    margin-right: 90px;
+}
+/*ESTILOS PARA LAS CARDS*/
+.card-text{
+    font-size: 14px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+.card{
+    border: none;
+}
+.card-price{
+    text-align: center;
+    font-weight: bold;
+}
+/* SECCION CUESTIONARIO*/
+.cuestionario{
+    background-color: white;
+    height: 140px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 50px;
+    margin-right: 50px;
+    
+}
+.ask{
+    background-color: white;
+    align-items: center;
+    height: 50px; 
+    margin-top: 70px;
+    width: 100%;
+    
+}
+.askhijo{
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+}
+.asktextpadre{
+    background-color: white;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.asktext{
+    background-color: white;
+    align-items: center;
+    width: 100%;
+    
+}
+.asktexthijo{
+    text-align: center;
+}
+
+.askformulario{
+    background-color: white;
+    height: 160px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 50px;
+    margin-right: 50px;
+    flex-direction: column;
+    
+}
+.eemali{
+    width: 500px;
+    margin: 5px;
+    
+    
+    
+}
+.yyourquestion{
+    width: 500px;
+    margin: 10px;
+}
+.botonask{
+    background-color: black;
+    
+    
+    padding: 8px 22px;
+    color: white;
+    border: none;
+    border-radius: 25px;
+    font-size: 10px;
+    font-family: 'Franklin Gothic Medium'
+}
+    
+   
+/*PIE DE PAGINA*/
+footer{
+    background-color:white;
+    
+
+}
+.fin{
+    background-color: white;
+    height: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    
+    
+}
+.floridaizq{
+    background-color: white;
+ margin-right: 145px ;
+ font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+   
+    
+   
+   
+    
+   
+}
+.lauderdalederec{
+    background-color:white;
+    margin-left: 95px;
+    
+    
+    
+    
+   
+   
+}
+.piedepagina{
+   background-color:white;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.imglogodos{
+    background-color:white;
+    width: 170px;
+    height: 60px;
+    margin-left: 170px
+    
+}
+.fmenumedio{
+    background-color: white;
+    width: 580px;
+    height: 30px;
+    display: flex;
+    padding: 0;
+    margin-right: 50px;
+    list-style: none;
+    list-style-type: none;
+}
+.fmenumedio li{
+    display: inline-block;
+    margin-right: 25px;
+  justify-content: center;
+   text-align: center;
+}
+.fmenumedio a{
+    text-decoration: none;
+    color:black;
+}
+.ficonosderecha{
+    background-color: white;
+    margin-right: 160px;
+    width: 90px;
+    height: 40px;
+   
+}
+.ficonosderecha svg{
+    margin-right: 10px;
+
+}
+
+.botonfalso{
+    border-radius: 5px;
+    border: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: blue;
+}
+
+.vermas {
+    display: none;
+}
+
+.show{
+    display: block;
+}
+
+
+    
+    
+
+
+.modo{
+    
+    
+    
+    margin-left: 1280px;
+}
+
+#toggle{
+display: none;
+
+}
+
+#label_toggle{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+    
+    
+}
+
+
+.dark{
+    background-color: #474747;
+    color: white;
+    transition: all 1.5s ease;
+}
+
+
+
+
+
+/*.datosperson{
+    background-color: white;
+    height: 240px;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    flex-direction: column;
+}*/
